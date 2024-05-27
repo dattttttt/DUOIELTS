@@ -1,0 +1,13 @@
+FROM --platform=linux/amd64 mysql:8.0  
+
+ENV MYSQL_HOST douilets-db
+ENV MYSQL_ROOT_PASSWORD zLdUtRa0o8odux2weStU
+ENV MYSQL_DATABASE douilets_db
+ENV MYSQL_USER tiendat
+ENV MYSQL_PASSWORD YldR2friTuros8IBr0sW
+
+# RUN mkdir /backup
+
+# COPY _build/_setup/api_db/ /_setup/
+
+EXPOSE 3306

@@ -76,8 +76,12 @@ WSGI_APPLICATION = "DUOIELTS.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "douilets_db",
+        "USER": "root",
+        "PASSWORD": "zLdUtRa0o8odux2weStU",
+        "HOST": "douielts_api_db",
+        "PORT": "3306",
     }
 }
 
